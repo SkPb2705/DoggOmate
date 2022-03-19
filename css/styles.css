@@ -108,7 +108,7 @@ padding-top: 50px;
 text-align: center;
 }
 .press-logo{
-  width: 10%;
+  width: 50%;
   margin:20px 15px 50px;
   padding: 1rem;
 }
@@ -137,12 +137,11 @@ transform:rotate(0);
 position: static;
 margin:2% auto;}
 
-.press-logo{
-width:40%;
-;
+}
+@media(max-width:762px){
+  .press-logo{width:20%}
 }
 
-}
 
 #cta{
   background-color:#ff4c68;
